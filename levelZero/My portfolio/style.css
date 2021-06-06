@@ -175,14 +175,28 @@ h4 {
 
 /** footers **/
 
-#footer {
-  background-color: var(--primary-color);
-  position: fixed;
-  padding: 1rem;
-  left: 0;
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
   bottom: 0;
-  width: 100%;
-  /* background-color:#222831; */
-  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
   text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
 }
