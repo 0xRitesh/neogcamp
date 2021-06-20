@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background-image: url("img/123.jpg");
+    background-image: url("img/hero-bg.jpg");
     background-repeat: no-repeat;
     background-color: #cccccc;
     background-attachment: fixed;
@@ -199,4 +199,13 @@ footer i {
 footer a {
   color: #3c97bf;
   text-decoration: none;
+}
+
+
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #eee8e8, #93a6d1, #1973D1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 50px;
 }

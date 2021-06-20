@@ -13,7 +13,7 @@ function createURL(text)
         {
             let inText = inputArea.value;
             let outText = '';
-            fetch(createURL(inText))
+            fetch(createURL(inText))    
                 .then((response) => response.json())
                 .then((json) => {
                     outText = json.contents.translated;
@@ -23,3 +23,5 @@ function createURL(text)
         }
 
         btnTranslate.addEventListener('click', clickHandler);
+
+        
