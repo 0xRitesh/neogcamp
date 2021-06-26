@@ -21,6 +21,13 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
   }
+  #blog-bg{
+    background-image: url("img/4.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
 
 /* Spacing */
 .p-1 {
@@ -207,5 +214,56 @@ footer a {
 	background: linear-gradient(to right, #eee8e8, #93a6d1, #1973D1);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 25px;
 }
+
+.overlay {
+  height: 100%;
+  background-color: rgba(238, 238, 238, 0.8);
+  padding: 2rem;
+}
+.blog-head {
+  height: 20vh;
+  flex-direction: column;
+  color: #111111;
+}
+.blog {
+  height: 250px;
+  background-color: #202443;
+  max-width: 880px;
+  width: 80vw;
+  margin: 2rem auto;
+  justify-content: space-around;
+  border-radius: 5px;
+  color: white;
+}
+.blog > * {
+  width: 50%;
+  height: 100%;
+}
+#blogs section :nth-child(even) {
+  flex-direction: row-reverse;
+}
+.blog .blog-img {
+  max-width: 350px;
+  width: 50%;
+}
+.blog .blog-content {
+  background-color: #303766;
+  padding: 0 2rem;
+}
+.blog .blog-content h3 {
+  margin-top: 2.5rem;
+}
+.blog .blog-content {
+  float: right;
+  margin: 1rem auto;
+}
+.blog .link {
+ 
+  margin: 1rem auto;
+}
+#blogs section:last-child {
+  margin-bottom: 10%;
+}
+
